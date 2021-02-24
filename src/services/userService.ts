@@ -1,7 +1,7 @@
 import axios from 'axios';
 import {User} from '../models/User';
 
-const API = `https://users-res-api.herokuapp.com/`;
+const API = `https://users-res-api.herokuapp.com`;
 
 const getUsuarios = async () =>{
     const res = await axios.get(`${API}/usuarios`);
